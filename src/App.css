@@ -1,0 +1,160 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.calculator {
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  height: 360px;
+}
+
+.calculator-display {
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color:black
+}
+
+.calculator-keypad {
+  display: flex;
+}
+
+.calculator-keypad button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-keys {
+  flex: 3;
+}
+
+.digit-keys button {
+  background-color: black;
+}
+
+.digit-keys button:hover {
+  background-color: #302d2d;
+}
+
+.function-keys {
+  display: flex;
+}
+
+.function-keys button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key-clear {
+  background-color: #ff7043;
+  color: #fff;
+}
+
+.key-clear:hover {
+  background-color: #ff8a65;
+}
+
+.operator-keys button {
+  background-color: #66bb6a;
+  color: black;
+}
+
+.operator-keys button:hover {
+  background-color: #81c784;
+}
+
+.equal-key button {
+  width: 53px;
+  height: 54px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #42a5f5;
+  color: #fff;
+}
+
+.equal-key button:hover {
+  background-color: #64b5f6;
+}
+
+.digit-keys {
+  position: relative;
+}
+
+.digit-keys button {
+  position: absolute;
+  width: 50px; /* veya istenilen genişlik */
+  height: 50px; /* veya istenilen yükseklik */
+}
+
+.digit-keys button:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.digit-keys button:nth-child(2) {
+  top: 0;
+  left: 60px;
+}
+
+.digit-keys button:nth-child(3) {
+  top: 0;
+  left: 120px;
+}
+
+.digit-keys button:nth-child(4) {
+  top: 60px;
+  left: 0;
+}
+
+.digit-keys button:nth-child(5) {
+  top: 60px;
+  left: 60px;
+}
+
+.digit-keys button:nth-child(6) {
+  top: 60px;
+  left: 120px;
+}
+
+.digit-keys button:nth-child(7) {
+  top: 120px;
+  left: 0;
+}
+
+.digit-keys button:nth-child(8) {
+  top: 120px;
+  left: 60px;
+}
+
+.digit-keys button:nth-child(9) {
+  top: 120px;
+  left: 120px;
+}
+
+.digit-keys button:nth-child(10) {
+  top: 180px;
+  left: 0px; /* düğme "0" sıfırın solunda */
+}
+
+.digit-keys button:nth-child(11) {
+  top: 180px;
+  left: 60px; /* düğme "." noktanın yanında */
+}
